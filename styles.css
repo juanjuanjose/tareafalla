@@ -54,6 +54,7 @@ nav li a {
   color: white;
   background-color: #171313;
   padding: 1rem;
+  opacity: 0.8;
 }
 
 .seccion2 {
@@ -96,13 +97,13 @@ nav li a {
 
 .seccion2-2 > img:hover {
   transform: scale(1.06);
-  transition: transform 0.3s ease; /* Agrega una transición suave de 0.3 segundos */
+  transition: transform 0.3s ease; 
 }
 
 .seccion3 {
   width: 100%;
   height: 35rem;
-  background-color: #979595;
+  background-color: #171313;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -225,8 +226,9 @@ nav li a {
 .seccion5 {
   width: 100%;
   height: 35rem;
-  background-color: #979595;
+  background-color: #171313;
   display: flex;
+  color: white;
 }
 
 .seccion5-1 {
@@ -266,20 +268,23 @@ nav li a {
   background-color: #333;
   background-image: url(images/otrofondo.jpg);
   background-size: cover;
-  background-position: 0 -20rem;
+  background-repeat: no-repeat;
+
 }
 
 .registro h2 {
-  color: white;
+  color: rgb(255, 255, 255);
+  border-radius: 1rem;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 4rem;
-  font-size: 30px;
-  margin-bottom: 4rem;
+  font-size: 50px;
+
 }
 
 form {
+  border-radius: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -325,12 +330,12 @@ textarea {
   box-sizing: border-box;
   border: 1px solid #ccc;
   border-radius: 4px;
-  resize: vertical; /* Permite que el usuario redimensione verticalmente el textarea */
+  resize: vertical; 
   transition: border-color 0.3s ease;
 }
 
 textarea:focus {
-  border-color: #007bff;
+  border-color: #000000;
 }
 
 .about {
@@ -351,7 +356,7 @@ textarea:focus {
   display: none;
 }
 
-/* ----------------------- QUERY ----------------------------- */
+
 
 @media (max-width: 480px) {
 
@@ -471,7 +476,6 @@ input{
 }
 
 
-  /* ---------------Hamburguesa---------- */
   
   .abrir-menu,.cerrar-menu{
     display: block;
